@@ -11,7 +11,7 @@ package fatec.poo.model;
  */
 public class Curso {
 
-    private String Sigla;
+    private String sigla;
     private String Nome;
     private int CargaHoraria;
     private double Valor;
