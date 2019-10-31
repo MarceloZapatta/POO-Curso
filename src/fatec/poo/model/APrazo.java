@@ -11,46 +11,46 @@ package fatec.poo.model;
  */
 public class APrazo {
 
-    private double Valor;
-    private String DtVencimento;
-    private double TaxaJuros;
-    private int Mensalidade;
+    private double valor;
+    private String dataVencimento;
+    private double taxaJuros;
+    private int mensalidade;
 
     public APrazo(double TaxaJuros) {
-        this.TaxaJuros = TaxaJuros / 100;
+        this.taxaJuros = TaxaJuros / 100;
     }
     //SET
-    public void setValor(double Valor) {
-        this.Valor = Valor;
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 
-    public void setDtVencimento(String DtVencimento) {
-        this.DtVencimento = DtVencimento;
+    public void setDtVencimento(String dataVencimento) {
+        this.dataVencimento = dataVencimento;
     }
 
-    public void setTaxaJuros(double TaxaJuros) {
-        this.TaxaJuros = TaxaJuros;
+    public void setTaxaJuros(double taxaJuros) {
+        this.taxaJuros = taxaJuros;
     }
 
-    public void setMensalidade(int Mensalidade) {
-        this.Mensalidade = Mensalidade;
+    public void setMensalidade(int mensalidade) {
+        this.mensalidade = mensalidade;
     }
     
     //GET
     public double getValor() {
-        return Valor;
+        return valor;
     }
 
     public String getDtVencimento() {
-        return DtVencimento;
+        return dataVencimento;
     }
 
     public double getTaxaJuros() {
-        return TaxaJuros;
+        return taxaJuros;
     }
 
     public int getMensalidade() {
-        return Mensalidade;
+        return mensalidade;
     }
 
 }

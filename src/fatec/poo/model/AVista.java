@@ -11,43 +11,43 @@ package fatec.poo.model;
  */
 public class AVista {
 
-    private double Valor;
-    private int Agencia;
-    private int Ncheque;
-    private String PreData;
+    private double valor;
+    private int agencia;
+    private int nCheque;
+    private String preData;
 
     //SET
-    public void setValor(double Valor) {
-        this.Valor = Valor;
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 
-    public void setAgencia(int Agencia) {
-        this.Agencia = Agencia;
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
     }
 
-    public void setNcheque(int Ncheque) {
-        this.Ncheque = Ncheque;
+    public void setNcheque(int nCheque) {
+        this.nCheque = nCheque;
     }
 
-    public void setPreData(String PreData) {
-        this.PreData = PreData;
+    public void setPreData(String preData) {
+        this.preData = preData;
     }  
     
     //GET
     public double getValor() {
-        return Valor;
+        return valor;
     }
 
     public int getAgencia() {
-        return Agencia;
+        return agencia;
     }
 
     public int getNcheque() {
-        return Ncheque;
+        return nCheque;
     }
 
     public String getPreData() {
-        return PreData;
+        return preData;
     }
     
     

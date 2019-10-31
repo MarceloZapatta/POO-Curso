@@ -11,17 +11,17 @@ package fatec.poo.model;
  */
 public class Aluno extends Pessoa {
 
-    private String Escolaridade;
+    private String escolaridade;
 
-    public Aluno(String CPF, String Nome) {
-        super(CPF, Nome);
+    public Aluno(String cpf, String nome) {
+        super(cpf, nome);
     }
     //SET
-    public void setEscolaridade(String Escolaridade) {
-        this.Escolaridade = Escolaridade;
+    public void setEscolaridade(String escolaridade) {
+        this.escolaridade = escolaridade;
     }
     //GET
     public String getEscolaridade() {
-        return Escolaridade;
+        return escolaridade;
     }
 }

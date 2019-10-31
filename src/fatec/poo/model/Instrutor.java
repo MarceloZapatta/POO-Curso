@@ -11,28 +11,28 @@ package fatec.poo.model;
  */
 public class Instrutor extends Pessoa {
 
-    private String Formacao;
-    private String AreaAtuacao;
+    private String formacao;
+    private String areaAtuacao;
 
-    public Instrutor(String CPF, String Nome) {
-        super(CPF, Nome);
+    public Instrutor(String cpf, String nome) {
+        super(cpf, nome);
     }
     
     //SET
-    public void setFormacao(String Formacao) {
-        this.Formacao = Formacao;
+    public void setFormacao(String formacao) {
+        this.formacao = formacao;
     }
 
-    public void setAreaAtuacao(String AreaAtuacao) {
-        this.AreaAtuacao = AreaAtuacao;
+    public void setAreaAtuacao(String areaAtuacao) {
+        this.areaAtuacao = areaAtuacao;
     }
     //GET
     public String getFormacao() {
-        return Formacao;
+        return formacao;
     }
 
     public String getAreaAtuacao() {
-        return AreaAtuacao;
+        return areaAtuacao;
     }
 
 }

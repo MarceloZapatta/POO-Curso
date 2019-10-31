@@ -11,75 +11,75 @@ package fatec.poo.model;
  */
 public class Turma {
 
-    private String SiglaTurma;
-    private String Descricao;
-    private String DataInicio;
-    private String DataTermino;
-    private String Periodo;
-    private int QtdVagas;
-    private String Observacoes;
+    private String siglaTurma;
+    private String descricao;
+    private String dataInicio;
+    private String dataTermino;
+    private String periodo;
+    private int qtdVagas;
+    private String observacoes;
 
-    public Turma(String SiglaTurma, String Descricao) {
-        this.SiglaTurma = SiglaTurma;
-        this.Descricao = Descricao;
+    public Turma(String siglaTurma, String descricao) {
+        this.siglaTurma = siglaTurma;
+        this.descricao = descricao;
     }
 
     //SET
-    public void setSiglaTurma(String SiglaTurma) {
-        this.SiglaTurma = SiglaTurma;
+    public void setSiglaTurma(String siglaTurma) {
+        this.siglaTurma = siglaTurma;
     }
 
-    public void setDescricao(String Descricao) {
-        this.Descricao = Descricao;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
-    public void setDataInicio(String DataInicio) {
-        this.DataInicio = DataInicio;
+    public void setDataInicio(String dataInicio) {
+        this.dataInicio = dataInicio;
     }
 
-    public void setDataTermino(String DataTermino) {
-        this.DataTermino = DataTermino;
+    public void setDataTermino(String dataTermino) {
+        this.dataTermino = dataTermino;
     }
 
-    public void setPeriodo(String Periodo) {
-        this.Periodo = Periodo;
+    public void setPeriodo(String periodo) {
+        this.periodo = periodo;
     }
 
-    public void setQtdVagas(int QtdVagas) {
-        this.QtdVagas = QtdVagas;
+    public void setQtdVagas(int qtdeVagas) {
+        this.qtdVagas = qtdeVagas;
     }
 
-    public void setObservacoes(String Observacoes) {
-        this.Observacoes = Observacoes;
+    public void setObservacoes(String observacoes) {
+        this.observacoes = observacoes;
     }
     
     //GET
     public String getSiglaTurma() {
-        return SiglaTurma;
+        return siglaTurma;
     }
 
     public String getDescricao() {
-        return Descricao;
+        return descricao;
     }
 
     public String getDataInicio() {
-        return DataInicio;
+        return dataInicio;
     }
 
     public String getDataTermino() {
-        return DataTermino;
+        return dataTermino;
     }
 
     public String getPeriodo() {
-        return Periodo;
+        return periodo;
     }
 
     public int getQtdVagas() {
-        return QtdVagas;
+        return qtdVagas;
     }
 
     public String getObservacoes() {
-        return Observacoes;
+        return observacoes;
     }
     
     

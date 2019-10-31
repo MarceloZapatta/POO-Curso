@@ -12,65 +12,66 @@ package fatec.poo.model;
 public class Curso {
 
     private String sigla;
-    private String Nome;
-    private int CargaHoraria;
-    private double Valor;
-    private String DataVigencia;
-    private double ValorHoraInstrutor;
-    private String Programa;
+    private String nome;
+    private int cargaHoraria;
+    private double valor;
+    private String dataVigencia;
+    private double valorHoraInstrutor;
+    private String programa;
+    private Aluno aluno[];
 
-    public Curso(String Sigla, String Nome) {
-        this.Sigla = Sigla;
-        this.Nome = Nome;
+    public Curso(String sigla, String nome) {
+        this.sigla = sigla;
+        this.nome = nome;
     }
     //SET
-    public void setCargaHoraria(int CargaHoraria) {
-        this.CargaHoraria = CargaHoraria;
+    public void setCargaHoraria(int cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
     }
 
     public void setValor(double Valor) {
-        this.Valor = Valor;
+        this.valor = Valor;
+    }
+    
+    public void setDataVigencia(String dataVigencia) {
+        this.dataVigencia = dataVigencia;
     }
 
-    public void setDataVigencia(String DataVigencia) {
-        this.DataVigencia = DataVigencia;
+    public void setValorHoraInstrutor(double valorHoraInstrutor) {
+        this.valorHoraInstrutor = valorHoraInstrutor;
     }
 
-    public void setValorHoraInstrutor(double ValorHoraInstrutor) {
-        this.ValorHoraInstrutor = ValorHoraInstrutor;
-    }
-
-    public void setPrograma(String Programa) {
-        this.Programa = Programa;
+    public void setPrograma(String programa) {
+        this.programa = programa;
     }
 
     //GET
     public String getSigla() {
-        return Sigla;
+        return sigla;
     }
 
     public String getNome() {
-        return Nome;
+        return nome;
     }
 
     public int getCargaHoraria() {
-        return CargaHoraria;
+        return cargaHoraria;
     }
 
     public double getValor() {
-        return Valor;
+        return valor;
     }
 
     public String getDataVigencia() {
-        return DataVigencia;
+        return dataVigencia;
     }
 
     public double getValorHoraInstrutor() {
-        return ValorHoraInstrutor;
+        return valorHoraInstrutor;
     }
 
     public String getPrograma() {
-        return Programa;
+        return programa;
     }
 
 }

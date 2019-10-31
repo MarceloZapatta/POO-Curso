@@ -11,148 +11,148 @@ package fatec.poo.model;
  */
 public abstract class Pessoa {
 
-    private String Nome;
-    private String DataNasc;
-    private String Endereco;
-    private int Numero;
-    private String Bairro;
-    private String Cidade;
-    private String Estado;
-    private String CEP;
-    private String Telefone;
-    private String Celular;
-    private String Sexo;
-    private String EstadoCivil;
-    private String RG;
-    private String CPF;
-    private String Email;
+    private String nome;
+    private String dataNasc;
+    private String endereco;
+    private int numero;
+    private String bairro;
+    private String cidade;
+    private String estado;
+    private String cep;
+    private String telefone;
+    private String celular;
+    private String sexo;
+    private String estadoCivil;
+    private String rg;
+    private String cpf;
+    private String email;
 
-    public Pessoa(String CPF, String Nome) {
-        this.CPF = CPF;
-        this.Nome = Nome;
+    public Pessoa(String cpf, String nome) {
+        this.cpf = cpf;
+        this.nome = nome;
     }
     
     //SET
-    public void setNome(String Nome) {
-        this.Nome = Nome;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public void setDataNasc(String DataNasc) {
-        this.DataNasc = DataNasc;
+    public void setDataNasc(String dataNasc) {
+        this.dataNasc = dataNasc;
     }
 
-    public void setEndereco(String Endereco) {
-        this.Endereco = Endereco;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
-    public void setNumero(int Numero) {
-        this.Numero = Numero;
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
-    public void setBairro(String Bairro) {
-        this.Bairro = Bairro;
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
     }
 
-    public void setCidade(String Cidade) {
-        this.Cidade = Cidade;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }
 
-    public void setEstado(String Estado) {
-        this.Estado = Estado;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
-    public void setCEP(String CEP) {
-        this.CEP = CEP;
+    public void setCEP(String cep) {
+        this.cep = cep;
     }
 
-    public void setTelefone(String Telefone) {
-        this.Telefone = Telefone;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
 
-    public void setCelular(String Celular) {
-        this.Celular = Celular;
+    public void setCelular(String celular) {
+        this.celular = celular;
     }
 
-    public void setSexo(String Sexo) {
-        this.Sexo = Sexo;
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
-    public void setEstadoCivil(String EstadoCivil) {
-        this.EstadoCivil = EstadoCivil;
+    public void setEstadoCivil(String estadoCivil) {
+        this.estadoCivil = estadoCivil;
     }
 
-    public void setRG(String RG) {
-        this.RG = RG;
+    public void setRG(String rg) {
+        this.rg = rg;
     }
 
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
+    public void setCPF(String cpf) {
+        this.cpf = cpf;
     }
 
-    public void setEmail(String Email) {
-        this.Email = Email;
+    public void setEmail(String email) {
+        this.email = email;
     }
     
     
     //GET
     public String getNome() {
-        return Nome;
+        return nome;
     }
 
     public String getDataNasc() {
-        return DataNasc;
+        return dataNasc;
     }
 
     public String getEndereco() {
-        return Endereco;
+        return endereco;
     }
 
     public int getNumero() {
-        return Numero;
+        return numero;
     }
 
     public String getBairro() {
-        return Bairro;
+        return bairro;
     }
 
     public String getCidade() {
-        return Cidade;
+        return cidade;
     }
 
     public String getEstado() {
-        return Estado;
+        return estado;
     }
 
     public String getCEP() {
-        return CEP;
+        return cep;
     }
 
     public String getTelefone() {
-        return Telefone;
+        return telefone;
     }
 
     public String getCelular() {
-        return Celular;
+        return celular;
     }
 
     public String getSexo() {
-        return Sexo;
+        return sexo;
     }
 
     public String getEstadoCivil() {
-        return EstadoCivil;
+        return estadoCivil;
     }
 
     public String getRG() {
-        return RG;
+        return rg;
     }
 
     public String getCPF() {
-        return CPF;
+        return cpf;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
 }

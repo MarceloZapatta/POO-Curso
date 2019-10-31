@@ -11,36 +11,35 @@ package fatec.poo.model;
  */
 public class Matricula {
 
-    private String Data;
-    private int QtdeFaltas;
-    private double Nota;
+    private String data;
+    private int qtdeFaltas;
+    private double nota;
 
-    public Matricula(String Data) {
-        this.Data = Data;
+    public Matricula(String data) {
+        this.data = data;
     }
 
-    public void setQtdeFaltas(int QtdeFaltas) {
-        this.QtdeFaltas = QtdeFaltas;
+   public void setQtdeFaltas(int qtdeFaltas) {
+        this.qtdeFaltas = qtdeFaltas;
     }
 
-    public void setNota(double Nota) {
-        this.Nota = Nota;
+    public void setNota(double nota) {
+        this.nota = nota;
     }
 
     public String getData() {
-        return Data;
+        return data;
     }
 
     public int getQtdeFaltas() {
-        return QtdeFaltas;
+        return qtdeFaltas;
     }
 
     public double getNota() {
-        return Nota;
+        return nota;
     }
     
     public void EmitirCarne() {
-
+        // TODO EMITIR CARNE
     }
-
 }
