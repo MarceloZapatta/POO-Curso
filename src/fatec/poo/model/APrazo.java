@@ -5,6 +5,8 @@
  */
 package fatec.poo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author notebook
@@ -15,10 +17,8 @@ public class APrazo {
     private String dataVencimento;
     private double taxaJuros;
     private int mensalidade;
+    private Matricula matricula;
 
-    public APrazo(double TaxaJuros) {
-        this.taxaJuros = TaxaJuros / 100;
-    }
     //SET
     public void setValor(double valor) {
         this.valor = valor;
@@ -52,5 +52,8 @@ public class APrazo {
     public int getMensalidade() {
         return mensalidade;
     }
-
+    
+    public void setMatricula(Matricula matricula) {
+        this.matricula = matricula;
+    }
 }

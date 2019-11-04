@@ -5,6 +5,8 @@
  */
 package fatec.poo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author notebook
@@ -18,10 +20,15 @@ public class Turma {
     private String periodo;
     private int qtdVagas;
     private String observacoes;
+    private Instrutor instrutor;
+    private Curso curso;
+    private ArrayList<Matricula> matriculas;
 
     public Turma(String siglaTurma, String descricao) {
         this.siglaTurma = siglaTurma;
         this.descricao = descricao;
+
+        this.matriculas = new ArrayList<Matricula>();
     }
 
     //SET
@@ -52,7 +59,7 @@ public class Turma {
     public void setObservacoes(String observacoes) {
         this.observacoes = observacoes;
     }
-    
+
     //GET
     public String getSiglaTurma() {
         return siglaTurma;
@@ -81,7 +88,16 @@ public class Turma {
     public String getObservacoes() {
         return observacoes;
     }
-    
-    
 
+    public void setInstrutor(Instrutor instrutor) {
+        this.instrutor = instrutor;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
+    public void addMatricula(Matricula matricula) {
+        this.matriculas.add(matricula);
+    }
 }

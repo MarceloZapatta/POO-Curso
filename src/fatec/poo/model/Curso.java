@@ -5,12 +5,13 @@
  */
 package fatec.poo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author notebook
  */
 public class Curso {
-
     private String sigla;
     private String nome;
     private int cargaHoraria;
@@ -18,12 +19,15 @@ public class Curso {
     private String dataVigencia;
     private double valorHoraInstrutor;
     private String programa;
-    private Aluno aluno[];
+    private ArrayList<Turma> turmas;
 
     public Curso(String sigla, String nome) {
         this.sigla = sigla;
         this.nome = nome;
+        
+        turmas = new ArrayList<Turma>();
     }
+
     //SET
     public void setCargaHoraria(int cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
@@ -32,7 +36,7 @@ public class Curso {
     public void setValor(double Valor) {
         this.valor = Valor;
     }
-    
+
     public void setDataVigencia(String dataVigencia) {
         this.dataVigencia = dataVigencia;
     }
@@ -73,5 +77,8 @@ public class Curso {
     public String getPrograma() {
         return programa;
     }
-
+    
+    public void addTurma(Turma turma) {
+        this.turmas.add(turma);
+    }
 }

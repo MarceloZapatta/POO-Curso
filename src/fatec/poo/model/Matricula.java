@@ -5,6 +5,8 @@
  */
 package fatec.poo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author notebook
@@ -12,15 +14,19 @@ package fatec.poo.model;
 public class Matricula {
 
     private String data;
-    private int qtdeFaltas;
+    private int quantidadeFaltas;
     private double nota;
+    private Aluno aluno;
+    private Turma turma;
+    private AVista aVista;
+    private APrazo aPrazo;
 
     public Matricula(String data) {
         this.data = data;
     }
 
-   public void setQtdeFaltas(int qtdeFaltas) {
-        this.qtdeFaltas = qtdeFaltas;
+    public void setQuantidadeFaltas(int quantidadeFaltas) {
+        this.quantidadeFaltas = quantidadeFaltas;
     }
 
     public void setNota(double nota) {
@@ -31,15 +37,27 @@ public class Matricula {
         return data;
     }
 
-    public int getQtdeFaltas() {
-        return qtdeFaltas;
+    public int getQuantidadeFaltas() {
+        return quantidadeFaltas;
     }
 
     public double getNota() {
         return nota;
     }
-    
-    public void EmitirCarne() {
-        // TODO EMITIR CARNE
+
+    public void setAluno() {
+        this.aluno = aluno;
+    }
+
+    public void setTurma(Turma turma) {
+        this.turma = turma;
+    }
+
+    public void setAVista(AVista aVista) {
+        this.aVista = aVista;
+    }
+
+    public void setAPrazo(APrazo aPrazo) {
+        this.aPrazo = aPrazo;
     }
 }

@@ -5,6 +5,8 @@
  */
 package fatec.poo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author notebook
@@ -15,7 +17,8 @@ public class AVista {
     private int agencia;
     private int nCheque;
     private String preData;
-
+    private Matricula matricula;
+   
     //SET
     public void setValor(double valor) {
         this.valor = valor;
@@ -50,6 +53,7 @@ public class AVista {
         return preData;
     }
     
-    
-
+    public void setMatricula(Matricula matricula) {
+        this.matricula = matricula;
+    }
 }
